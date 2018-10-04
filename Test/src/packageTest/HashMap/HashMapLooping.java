@@ -1,6 +1,7 @@
 package packageTest.HashMap;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class HashMapLooping {
@@ -21,7 +22,11 @@ public class HashMapLooping {
 		
 		
 		System.out.println(" Through While loop ");
-		
+		Iterator itr = Hmap.entrySet().iterator();
+		while(itr.hasNext()){
+			Map.Entry me1 = (Map.Entry) itr.next();
+			System.out.println("Set : Key : "+me1.getKey()+ "  Value  :  "+me1.getValue());
+		}
 		
 	}
 }

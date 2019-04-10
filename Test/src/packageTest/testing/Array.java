@@ -35,7 +35,7 @@ public class Array {
    public static void main(String[] args)
    {
        // Provide full path for directory(change accordingly)  
-       String maindirpath = "C:\\Users\\Gaurav Miglani\\Desktop\\Test";
+       String maindirpath = "C:\\Users\\Dharmpal-PC\\Desktop\\Test";
                
        // File object
        File maindir = new File(maindirpath);
